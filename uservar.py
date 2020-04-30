@@ -80,7 +80,7 @@ HIDECONTACT = 'No'
 CONTACT = 'Thank you for choosing Galaxy Wizard.\n\nContact us at galaxywizard@retrotechie.com'
 # Images used for the contact window.  http:// for default icon and fanart
 CONTACTICON = os.path.join(ART, 'qricon.png')
-CONTACTFANART = 'http://'
+CONTACTFANART = os.path.join(ART, 'ContentPanel.png')
 #########################################################
 
 #########################################################
