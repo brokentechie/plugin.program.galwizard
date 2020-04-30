@@ -13,11 +13,11 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 #        User Edit Variables                            #
 #########################################################
-ADDONTITLE = '[COLOR limegreen][B]Open[/B][/COLOR]Wizard'
-BUILDERNAME = 'OpenWizard'
-EXCLUDES = [ADDON_ID, 'repository.openwizard']
+ADDONTITLE = '[COLOR dodgerblue][B]Galaxy[/B][/COLOR]Wizard'
+BUILDERNAME = 'RetroTechie'
+EXCLUDES = [ADDON_ID, 'repository.brokentechie']
 # Text File with build info in it.
-BUILDFILE = 'http://'
+BUILDFILE = 'https://retrotechie.org/wizard/brokentechiebuilds.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 0
@@ -41,18 +41,18 @@ ADVANCEDFILE = 'http://'
 # Example:  ICONMAINT     = os.path.join(ART, 'mainticon.png')
 #           ICONSETTINGS  = 'https://www.yourhost.com/repo/wizard/settings.png'
 # Leave as http:// for default icon
-ICONBUILDS = os.path.join(ART, 'builds.png')
-ICONMAINT = os.path.join(ART, 'maintenance.png')
-ICONSPEED = os.path.join(ART, 'speed.png')
-ICONAPK = os.path.join(ART, 'apkinstaller.png')
-ICONADDONS = os.path.join(ART, 'addoninstaller.png')
-ICONYOUTUBE = os.path.join(ART, 'youtube.png')
-ICONSAVE = os.path.join(ART, 'savedata.png')
-ICONTRAKT = os.path.join(ART, 'keeptrakt.png')
-ICONREAL = os.path.join(ART, 'keepdebrid.png')
-ICONLOGIN = os.path.join(ART, 'keeplogin.png')
-ICONCONTACT = os.path.join(ART, 'information.png')
-ICONSETTINGS = os.path.join(ART, 'settings.png')
+ICONBUILDS = os.path.join(ART, 'blank.png')
+ICONMAINT = os.path.join(ART, 'blank.png')
+ICONSPEED = os.path.join(ART, 'blank.png')
+ICONAPK = os.path.join(ART, 'blank.png')
+ICONADDONS = os.path.join(ART, 'blank.png')
+ICONYOUTUBE = os.path.join(ART, 'blank.png')
+ICONSAVE = os.path.join(ART, 'blank.png')
+ICONTRAKT = os.path.join(ART, 'blank.png')
+ICONREAL = os.path.join(ART, 'blank.png')
+ICONLOGIN = os.path.join(ART, 'blank.png')
+ICONCONTACT = os.path.join(ART, 'blank.png')
+ICONSETTINGS = os.path.join(ART, 'blank.png')
 # Hide the section separators 'Yes' or 'No'
 HIDESPACERS = 'No'
 # Character used in separator
@@ -60,7 +60,7 @@ SPACER = '='
 
 # You can edit these however you want, just make sure that you have a %s in each of the
 # THEME's so it grabs the text from the menu item
-COLOR1 = 'limegreen'
+COLOR1 = 'dodgerblue'
 COLOR2 = 'white'
 # Primary menu items   / {0} is the menu item and is required
 THEME1 = u'[COLOR {color1}][I]([COLOR {color1}][B]Open[/B][/COLOR][COLOR {color2}]Wizard[COLOR {color1}])[/I][/COLOR] [COLOR {color2}]{{}}[/COLOR]'.format(color1=COLOR1, color2=COLOR2)
@@ -77,7 +77,7 @@ THEME5 = u'[COLOR {color1}]Current Theme:[/COLOR] [COLOR {color2}]{{}}[/COLOR]'.
 # Enable 'Contact' menu item 'Yes' hide or 'No' dont hide
 HIDECONTACT = 'No'
 # You can add \n to do line breaks
-CONTACT = 'Thank you for choosing OpenWizard.\n\nContact us on Github at http://www.github.com/drinfernoo/plugin.program.openwizard/'
+CONTACT = 'Thank you for choosing Galaxy Wizard.\n\nContact us at galaxywizard@retrotechie.com'
 # Images used for the contact window.  http:// for default icon and fanart
 CONTACTICON = os.path.join(ART, 'qricon.png')
 CONTACTFANART = 'http://'
@@ -87,7 +87,7 @@ CONTACTFANART = 'http://'
 #        Auto Update For Those With No Repo             #
 #########################################################
 # Enable Auto Update 'Yes' or 'No'
-AUTOUPDATE = 'Yes'
+AUTOUPDATE = 'No'
 #########################################################
 
 #########################################################
@@ -96,18 +96,18 @@ AUTOUPDATE = 'Yes'
 # Enable Auto Install 'Yes' or 'No'
 AUTOINSTALL = 'Yes'
 # Addon ID for the repository
-REPOID = 'repository.openwizard'
+REPOID = 'repository.brokentechie'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML = 'https://raw.githubusercontent.com/drinfernoo/repository.openwizard/master/zips/addons.xml'
+REPOADDONXML = 'https://raw.githubusercontent.com/brokentechie/BTrepo/master/zips/repository.brokentechie/addon.xml'
 # Url to folder zip is located in
-REPOZIPURL = 'https://raw.githubusercontent.com/drinfernoo/repository.openwizard/master/zips/repository.openwizard/'
+REPOZIPURL = 'https://raw.githubusercontent.com/brokentechie/BTrepo/master/zips/repository.brokentechie/'
 #########################################################
 
 #########################################################
 #        Notification Window                            #
 #########################################################
 # Enable Notification screen Yes or No
-ENABLE = 'Yes'
+ENABLE = 'No'
 # Url to notification file
 NOTIFICATION = 'http://'
 # Use either 'Text' or 'Image'
